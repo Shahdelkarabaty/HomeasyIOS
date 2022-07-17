@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A508EE82882A9DC001C3BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */; };
+		8A508EEA2882A9DC001C3BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EE92882A9DC001C3BF0 /* SceneDelegate.swift */; };
+		8A508EEC2882A9DC001C3BF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EEB2882A9DC001C3BF0 /* ViewController.swift */; };
+		8A508EEF2882A9DC001C3BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A508EED2882A9DC001C3BF0 /* Main.storyboard */; };
+		8A508EF12882A9E0001C3BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A508EF02882A9E0001C3BF0 /* Assets.xcassets */; };
+		8A508EF42882A9E0001C3BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A508EF22882A9E0001C3BF0 /* LaunchScreen.storyboard */; };
+		8A508EFF2882A9E1001C3BF0 /* HomeasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EFE2882A9E1001C3BF0 /* HomeasyTests.swift */; };
+		8A508F092882A9E1001C3BF0 /* HomeasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508F082882A9E1001C3BF0 /* HomeasyUITests.swift */; };
+		8A508F0B2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508F0A2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift */; };
+		8A508F182882AB51001C3BF0 /* homeasy_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A508F172882AB51001C3BF0 /* homeasy_logo.png */; };
+		D0FC2C502882D8E2006A4158 /* photo-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C4F2882D8E2006A4158 /* photo-removebg-preview.png */; };
+		D0FC2C5A28830396006A4158 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5128830392006A4158 /* 2.png */; };
+		D0FC2C5B28830396006A4158 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5228830393006A4158 /* 3.png */; };
+		D0FC2C5C28830396006A4158 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5328830394006A4158 /* 4.png */; };
+		D0FC2C5D28830396006A4158 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5428830394006A4158 /* 7.png */; };
+		D0FC2C5E28830396006A4158 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5528830394006A4158 /* 6.png */; };
+		D0FC2C5F28830396006A4158 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5628830395006A4158 /* 9.png */; };
+		D0FC2C6028830396006A4158 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5728830395006A4158 /* 1.png */; };
+		D0FC2C6128830396006A4158 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5828830395006A4158 /* 5.png */; };
+		D0FC2C6228830396006A4158 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5928830396006A4158 /* 8.png */; };
+		D0FC2C6C2883063B006A4158 /* carpenter.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C632883063B006A4158 /* carpenter.png */; };
+		D0FC2C6D2883063B006A4158 /* cook.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C642883063B006A4158 /* cook.png */; };
+		D0FC2C6E2883063B006A4158 /* nanny.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C652883063B006A4158 /* nanny.png */; };
+		D0FC2C6F2883063B006A4158 /* plumber.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C662883063B006A4158 /* plumber.png */; };
+		D0FC2C702883063B006A4158 /* painter.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C672883063B006A4158 /* painter.png */; };
+		D0FC2C712883063B006A4158 /* electrician.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C682883063B006A4158 /* electrician.png */; };
+		D0FC2C722883063B006A4158 /* housekeeping.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C692883063B006A4158 /* housekeeping.png */; };
+		D0FC2C732883063B006A4158 /* ac.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C6A2883063B006A4158 /* ac.png */; };
+		D0FC2C742883063B006A4158 /* gardener.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C6B2883063B006A4158 /* gardener.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A508EFB2882A9E1001C3BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A508EDC2882A9DC001C3BF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A508EE32882A9DC001C3BF0;
+			remoteInfo = Homeasy;
+		};
+		8A508F052882A9E1001C3BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A508EDC2882A9DC001C3BF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A508EE32882A9DC001C3BF0;
+			remoteInfo = Homeasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A508EE42882A9DC001C3BF0 /* Homeasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homeasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A508EE92882A9DC001C3BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A508EEB2882A9DC001C3BF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A508EEE2882A9DC001C3BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A508EF02882A9E0001C3BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A508EF32882A9E0001C3BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A508EF52882A9E0001C3BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A508EFA2882A9E1001C3BF0 /* HomeasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A508EFE2882A9E1001C3BF0 /* HomeasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeasyTests.swift; sourceTree = "<group>"; };
+		8A508F042882A9E1001C3BF0 /* HomeasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A508F082882A9E1001C3BF0 /* HomeasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeasyUITests.swift; sourceTree = "<group>"; };
+		8A508F0A2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeasyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A508F172882AB51001C3BF0 /* homeasy_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeasy_logo.png; sourceTree = "<group>"; };
+		D0FC2C4F2882D8E2006A4158 /* photo-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-removebg-preview.png"; sourceTree = "<group>"; };
+		D0FC2C5128830392006A4158 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D0FC2C5228830393006A4158 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D0FC2C5328830394006A4158 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D0FC2C5428830394006A4158 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		D0FC2C5528830394006A4158 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		D0FC2C5628830395006A4158 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		D0FC2C5728830395006A4158 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D0FC2C5828830395006A4158 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		D0FC2C5928830396006A4158 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		D0FC2C632883063B006A4158 /* carpenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carpenter.png; sourceTree = "<group>"; };
+		D0FC2C642883063B006A4158 /* cook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cook.png; sourceTree = "<group>"; };
+		D0FC2C652883063B006A4158 /* nanny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nanny.png; sourceTree = "<group>"; };
+		D0FC2C662883063B006A4158 /* plumber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumber.png; sourceTree = "<group>"; };
+		D0FC2C672883063B006A4158 /* painter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = painter.png; sourceTree = "<group>"; };
+		D0FC2C682883063B006A4158 /* electrician.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electrician.png; sourceTree = "<group>"; };
+		D0FC2C692883063B006A4158 /* housekeeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = housekeeping.png; sourceTree = "<group>"; };
+		D0FC2C6A2883063B006A4158 /* ac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ac.png; sourceTree = "<group>"; };
+		D0FC2C6B2883063B006A4158 /* gardener.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gardener.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A508EE12882A9DC001C3BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A508EF72882A9E1001C3BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A508F012882A9E1001C3BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A508EDB2882A9DC001C3BF0 = {
+			isa = PBXGroup;
+			children = (
+				8A508EE62882A9DC001C3BF0 /* Homeasy */,
+				8A508EFD2882A9E1001C3BF0 /* HomeasyTests */,
+				8A508F072882A9E1001C3BF0 /* HomeasyUITests */,
+				8A508EE52882A9DC001C3BF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A508EE52882A9DC001C3BF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A508EE42882A9DC001C3BF0 /* Homeasy.app */,
+				8A508EFA2882A9E1001C3BF0 /* HomeasyTests.xctest */,
+				8A508F042882A9E1001C3BF0 /* HomeasyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A508EE62882A9DC001C3BF0 /* Homeasy */ = {
+			isa = PBXGroup;
+			children = (
+				D0FC2C6A2883063B006A4158 /* ac.png */,
+				D0FC2C632883063B006A4158 /* carpenter.png */,
+				D0FC2C642883063B006A4158 /* cook.png */,
+				D0FC2C682883063B006A4158 /* electrician.png */,
+				D0FC2C6B2883063B006A4158 /* gardener.png */,
+				D0FC2C692883063B006A4158 /* housekeeping.png */,
+				D0FC2C652883063B006A4158 /* nanny.png */,
+				D0FC2C672883063B006A4158 /* painter.png */,
+				D0FC2C662883063B006A4158 /* plumber.png */,
+				D0FC2C5728830395006A4158 /* 1.png */,
+				D0FC2C5128830392006A4158 /* 2.png */,
+				D0FC2C5228830393006A4158 /* 3.png */,
+				D0FC2C5328830394006A4158 /* 4.png */,
+				D0FC2C5828830395006A4158 /* 5.png */,
+				D0FC2C5528830394006A4158 /* 6.png */,
+				D0FC2C5428830394006A4158 /* 7.png */,
+				D0FC2C5928830396006A4158 /* 8.png */,
+				D0FC2C5628830395006A4158 /* 9.png */,
+				D0FC2C4F2882D8E2006A4158 /* photo-removebg-preview.png */,
+				8A508F172882AB51001C3BF0 /* homeasy_logo.png */,
+				8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */,
+				8A508EE92882A9DC001C3BF0 /* SceneDelegate.swift */,
+				8A508EEB2882A9DC001C3BF0 /* ViewController.swift */,
+				8A508EED2882A9DC001C3BF0 /* Main.storyboard */,
+				8A508EF02882A9E0001C3BF0 /* Assets.xcassets */,
+				8A508EF22882A9E0001C3BF0 /* LaunchScreen.storyboard */,
+				8A508EF52882A9E0001C3BF0 /* Info.plist */,
+			);
+			path = Homeasy;
+			sourceTree = "<group>";
+		};
+		8A508EFD2882A9E1001C3BF0 /* HomeasyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A508EFE2882A9E1001C3BF0 /* HomeasyTests.swift */,
+			);
+			path = HomeasyTests;
+			sourceTree = "<group>";
+		};
+		8A508F072882A9E1001C3BF0 /* HomeasyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A508F082882A9E1001C3BF0 /* HomeasyUITests.swift */,
+				8A508F0A2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift */,
+			);
+			path = HomeasyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A508EE32882A9DC001C3BF0 /* Homeasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A508F0E2882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "Homeasy" */;
+			buildPhases = (
+				8A508EE02882A9DC001C3BF0 /* Sources */,
+				8A508EE12882A9DC001C3BF0 /* Frameworks */,
+				8A508EE22882A9DC001C3BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homeasy;
+			productName = Homeasy;
+			productReference = 8A508EE42882A9DC001C3BF0 /* Homeasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A508EF92882A9E1001C3BF0 /* HomeasyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A508F112882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "HomeasyTests" */;
+			buildPhases = (
+				8A508EF62882A9E1001C3BF0 /* Sources */,
+				8A508EF72882A9E1001C3BF0 /* Frameworks */,
+				8A508EF82882A9E1001C3BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A508EFC2882A9E1001C3BF0 /* PBXTargetDependency */,
+			);
+			name = HomeasyTests;
+			productName = HomeasyTests;
+			productReference = 8A508EFA2882A9E1001C3BF0 /* HomeasyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A508F032882A9E1001C3BF0 /* HomeasyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A508F142882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "HomeasyUITests" */;
+			buildPhases = (
+				8A508F002882A9E1001C3BF0 /* Sources */,
+				8A508F012882A9E1001C3BF0 /* Frameworks */,
+				8A508F022882A9E1001C3BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A508F062882A9E1001C3BF0 /* PBXTargetDependency */,
+			);
+			name = HomeasyUITests;
+			productName = HomeasyUITests;
+			productReference = 8A508F042882A9E1001C3BF0 /* HomeasyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A508EDC2882A9DC001C3BF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8A508EE32882A9DC001C3BF0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8A508EF92882A9E1001C3BF0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A508EE32882A9DC001C3BF0;
+					};
+					8A508F032882A9E1001C3BF0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A508EE32882A9DC001C3BF0;
+					};
+				};
+			};
+			buildConfigurationList = 8A508EDF2882A9DC001C3BF0 /* Build configuration list for PBXProject "Homeasy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A508EDB2882A9DC001C3BF0;
+			productRefGroup = 8A508EE52882A9DC001C3BF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A508EE32882A9DC001C3BF0 /* Homeasy */,
+				8A508EF92882A9E1001C3BF0 /* HomeasyTests */,
+				8A508F032882A9E1001C3BF0 /* HomeasyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A508EE22882A9DC001C3BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FC2C6228830396006A4158 /* 8.png in Resources */,
+				D0FC2C6C2883063B006A4158 /* carpenter.png in Resources */,
+				D0FC2C722883063B006A4158 /* housekeeping.png in Resources */,
+				8A508EF42882A9E0001C3BF0 /* LaunchScreen.storyboard in Resources */,
+				D0FC2C5C28830396006A4158 /* 4.png in Resources */,
+				D0FC2C6028830396006A4158 /* 1.png in Resources */,
+				8A508F182882AB51001C3BF0 /* homeasy_logo.png in Resources */,
+				D0FC2C5D28830396006A4158 /* 7.png in Resources */,
+				D0FC2C6D2883063B006A4158 /* cook.png in Resources */,
+				D0FC2C6128830396006A4158 /* 5.png in Resources */,
+				D0FC2C5E28830396006A4158 /* 6.png in Resources */,
+				D0FC2C732883063B006A4158 /* ac.png in Resources */,
+				8A508EF12882A9E0001C3BF0 /* Assets.xcassets in Resources */,
+				D0FC2C6F2883063B006A4158 /* plumber.png in Resources */,
+				D0FC2C5F28830396006A4158 /* 9.png in Resources */,
+				D0FC2C712883063B006A4158 /* electrician.png in Resources */,
+				D0FC2C5B28830396006A4158 /* 3.png in Resources */,
+				D0FC2C742883063B006A4158 /* gardener.png in Resources */,
+				D0FC2C5A28830396006A4158 /* 2.png in Resources */,
+				D0FC2C502882D8E2006A4158 /* photo-removebg-preview.png in Resources */,
+				8A508EEF2882A9DC001C3BF0 /* Main.storyboard in Resources */,
+				D0FC2C702883063B006A4158 /* painter.png in Resources */,
+				D0FC2C6E2883063B006A4158 /* nanny.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A508EF82882A9E1001C3BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A508F022882A9E1001C3BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A508EE02882A9DC001C3BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A508EEC2882A9DC001C3BF0 /* ViewController.swift in Sources */,
+				8A508EE82882A9DC001C3BF0 /* AppDelegate.swift in Sources */,
+				8A508EEA2882A9DC001C3BF0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A508EF62882A9E1001C3BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A508EFF2882A9E1001C3BF0 /* HomeasyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A508F002882A9E1001C3BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A508F092882A9E1001C3BF0 /* HomeasyUITests.swift in Sources */,
+				8A508F0B2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A508EFC2882A9E1001C3BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A508EE32882A9DC001C3BF0 /* Homeasy */;
+			targetProxy = 8A508EFB2882A9E1001C3BF0 /* PBXContainerItemProxy */;
+		};
+		8A508F062882A9E1001C3BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A508EE32882A9DC001C3BF0 /* Homeasy */;
+			targetProxy = 8A508F052882A9E1001C3BF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A508EED2882A9DC001C3BF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A508EEE2882A9DC001C3BF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A508EF22882A9E0001C3BF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A508EF32882A9E0001C3BF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A508F0C2882A9E1001C3BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A508F0D2882A9E1001C3BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A508F0F2882A9E1001C3BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X39NZH3D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Homeasy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.Homeasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A508F102882A9E1001C3BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X39NZH3D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Homeasy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.Homeasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A508F122882A9E1001C3BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.HomeasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homeasy.app/Homeasy";
+			};
+			name = Debug;
+		};
+		8A508F132882A9E1001C3BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.HomeasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homeasy.app/Homeasy";
+			};
+			name = Release;
+		};
+		8A508F152882A9E1001C3BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.HomeasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Homeasy;
+			};
+			name = Debug;
+		};
+		8A508F162882A9E1001C3BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.HomeasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Homeasy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A508EDF2882A9DC001C3BF0 /* Build configuration list for PBXProject "Homeasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A508F0C2882A9E1001C3BF0 /* Debug */,
+				8A508F0D2882A9E1001C3BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A508F0E2882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "Homeasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A508F0F2882A9E1001C3BF0 /* Debug */,
+				8A508F102882A9E1001C3BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A508F112882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "HomeasyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A508F122882A9E1001C3BF0 /* Debug */,
+				8A508F132882A9E1001C3BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A508F142882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "HomeasyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A508F152882A9E1001C3BF0 /* Debug */,
+				8A508F162882A9E1001C3BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A508EDC2882A9DC001C3BF0 /* Project object */;
+}
