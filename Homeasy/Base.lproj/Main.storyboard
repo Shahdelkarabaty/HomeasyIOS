@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Workers main-->
         <scene sceneID="FJT-pz-fDU">
             <objects>
-                <viewController id="aPB-ON-Rup" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="aPB-ON-Rup" customClass="workers_main" customModule="Homeasy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XKE-rN-zAs">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="flG-Ok-cPM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1158" y="-1127"/>
+            <point key="canvasLocation" x="-1864" y="258"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -94,7 +94,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9j-3r-jej">
                                 <rect key="frame" x="13" y="755" width="402" height="37"/>
@@ -117,13 +117,19 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="4ST-6p-P8J" kind="presentation" id="2QG-V0-sWs"/>
+                                    <action selector="login_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yPa-kr-jQD"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="password_outlet" destination="4Ma-Ff-naB" id="Vjd-vl-Tzg"/>
+                        <outlet property="username_outlet" destination="qaI-1s-ZxN" id="9xu-yC-4lG"/>
+                        <segue destination="aPB-ON-Rup" kind="presentation" identifier="main_workers" id="nQx-cR-IBM"/>
+                        <segue destination="4ST-6p-P8J" kind="presentation" identifier="main_customer" id="Usd-N1-gVh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -351,10 +357,10 @@
             </objects>
             <point key="canvasLocation" x="2036.9158878504672" y="471.70626349892012"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Customer main-->
         <scene sceneID="2Kw-Mp-oEt">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" interfaceStyle="light" id="4ST-6p-P8J" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" interfaceStyle="light" id="4ST-6p-P8J" customClass="customer_main" customModule="Homeasy" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dWi-vZ-8QF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -478,14 +484,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wZs-Cm-NiQ">
                                 <rect key="frame" x="141" y="475" width="240" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1v9-fF-z0e">
                                 <rect key="frame" x="141" y="576" width="240" height="38"/>
@@ -685,9 +691,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="MCp-Og-Lgo"/>
-        <segue reference="LbR-bx-VO6"/>
-        <segue reference="UkV-oE-lCL"/>
-        <segue reference="JOE-04-2Ko"/>
+        <segue reference="PnQ-Pi-hdx"/>
+        <segue reference="N4r-GQ-DwN"/>
+        <segue reference="0eH-F5-YRR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="8.png" width="375" height="375"/>

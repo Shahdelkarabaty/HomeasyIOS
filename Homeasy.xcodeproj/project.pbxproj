@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B903A5AC138D2E1F746204C /* Pods_HomeasyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8A079216F82BFC3753EB09 /* Pods_HomeasyTests.framework */; };
 		8A508EE82882A9DC001C3BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */; };
 		8A508EEA2882A9DC001C3BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EE92882A9DC001C3BF0 /* SceneDelegate.swift */; };
 		8A508EEC2882A9DC001C3BF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EEB2882A9DC001C3BF0 /* ViewController.swift */; };
@@ -17,6 +18,13 @@
 		8A508F092882A9E1001C3BF0 /* HomeasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508F082882A9E1001C3BF0 /* HomeasyUITests.swift */; };
 		8A508F0B2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508F0A2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift */; };
 		8A508F182882AB51001C3BF0 /* homeasy_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A508F172882AB51001C3BF0 /* homeasy_logo.png */; };
+		8ACEC9415EBDA0100E4CEBA7 /* Pods_Homeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284F1C59FA71624B01D9B164 /* Pods_Homeasy.framework */; };
+		C6BD72F92111745ACE549E10 /* Pods_Homeasy_HomeasyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4481015253EEC4E6B2602D4 /* Pods_Homeasy_HomeasyUITests.framework */; };
+		D0AEE4F22884AE750038CA14 /* customer_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEE4F12884AE750038CA14 /* customer_home.swift */; };
+		D0AEE4F42884B2740038CA14 /* customer_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEE4F32884B2740038CA14 /* customer_main.swift */; };
+		D0D60738288433EE00206072 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0D60737288433EE00206072 /* GoogleService-Info.plist */; };
+		D0D6073A28845C7400206072 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6073928845C7400206072 /* User.swift */; };
+		D0D6073C28849F6900206072 /* workers_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6073B28849F6900206072 /* workers_main.swift */; };
 		D0FC2C502882D8E2006A4158 /* photo-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C4F2882D8E2006A4158 /* photo-removebg-preview.png */; };
 		D0FC2C5A28830396006A4158 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5128830392006A4158 /* 2.png */; };
 		D0FC2C5B28830396006A4158 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC2C5228830393006A4158 /* 3.png */; };
@@ -56,6 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B213A48BC5D9BD9350DAEE /* Pods-HomeasyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeasyTests.release.xcconfig"; path = "Target Support Files/Pods-HomeasyTests/Pods-HomeasyTests.release.xcconfig"; sourceTree = "<group>"; };
+		284F1C59FA71624B01D9B164 /* Pods_Homeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A14FDE45FCBCFA95268E45 /* Pods-Homeasy-HomeasyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homeasy-HomeasyUITests.release.xcconfig"; path = "Target Support Files/Pods-Homeasy-HomeasyUITests/Pods-Homeasy-HomeasyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8A508EE42882A9DC001C3BF0 /* Homeasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homeasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A508EE92882A9DC001C3BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +81,16 @@
 		8A508F082882A9E1001C3BF0 /* HomeasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeasyUITests.swift; sourceTree = "<group>"; };
 		8A508F0A2882A9E1001C3BF0 /* HomeasyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeasyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8A508F172882AB51001C3BF0 /* homeasy_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeasy_logo.png; sourceTree = "<group>"; };
+		B528CB88EFB4F1B2106E0F69 /* Pods-Homeasy-HomeasyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homeasy-HomeasyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Homeasy-HomeasyUITests/Pods-Homeasy-HomeasyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0FF498CEAFD647C84DF425C /* Pods-HomeasyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeasyTests.debug.xcconfig"; path = "Target Support Files/Pods-HomeasyTests/Pods-HomeasyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4481015253EEC4E6B2602D4 /* Pods_Homeasy_HomeasyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homeasy_HomeasyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8A079216F82BFC3753EB09 /* Pods_HomeasyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeasyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC41D81D498A05E296863C6 /* Pods-Homeasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homeasy.release.xcconfig"; path = "Target Support Files/Pods-Homeasy/Pods-Homeasy.release.xcconfig"; sourceTree = "<group>"; };
+		D0AEE4F12884AE750038CA14 /* customer_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer_home.swift; sourceTree = "<group>"; };
+		D0AEE4F32884B2740038CA14 /* customer_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer_main.swift; sourceTree = "<group>"; };
+		D0D60737288433EE00206072 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0D6073928845C7400206072 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D0D6073B28849F6900206072 /* workers_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workers_main.swift; sourceTree = "<group>"; };
 		D0FC2C4F2882D8E2006A4158 /* photo-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-removebg-preview.png"; sourceTree = "<group>"; };
 		D0FC2C5128830392006A4158 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		D0FC2C5228830393006A4158 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -89,6 +110,7 @@
 		D0FC2C692883063B006A4158 /* housekeeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = housekeeping.png; sourceTree = "<group>"; };
 		D0FC2C6A2883063B006A4158 /* ac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ac.png; sourceTree = "<group>"; };
 		D0FC2C6B2883063B006A4158 /* gardener.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gardener.png; sourceTree = "<group>"; };
+		FFDAED1893DF5B9331CE8D36 /* Pods-Homeasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homeasy.debug.xcconfig"; path = "Target Support Files/Pods-Homeasy/Pods-Homeasy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ACEC9415EBDA0100E4CEBA7 /* Pods_Homeasy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B903A5AC138D2E1F746204C /* Pods_HomeasyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BD72F92111745ACE549E10 /* Pods_Homeasy_HomeasyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,10 +144,13 @@
 		8A508EDB2882A9DC001C3BF0 = {
 			isa = PBXGroup;
 			children = (
+				D0D6073B28849F6900206072 /* workers_main.swift */,
 				8A508EE62882A9DC001C3BF0 /* Homeasy */,
 				8A508EFD2882A9E1001C3BF0 /* HomeasyTests */,
 				8A508F072882A9E1001C3BF0 /* HomeasyUITests */,
 				8A508EE52882A9DC001C3BF0 /* Products */,
+				A57C4FEBC1E367DED5B62A53 /* Pods */,
+				D15281B365261A004DED9A32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +167,7 @@
 		8A508EE62882A9DC001C3BF0 /* Homeasy */ = {
 			isa = PBXGroup;
 			children = (
+				D0D60737288433EE00206072 /* GoogleService-Info.plist */,
 				D0FC2C6A2883063B006A4158 /* ac.png */,
 				D0FC2C632883063B006A4158 /* carpenter.png */,
 				D0FC2C642883063B006A4158 /* cook.png */,
@@ -162,10 +191,13 @@
 				8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */,
 				8A508EE92882A9DC001C3BF0 /* SceneDelegate.swift */,
 				8A508EEB2882A9DC001C3BF0 /* ViewController.swift */,
+				D0AEE4F32884B2740038CA14 /* customer_main.swift */,
 				8A508EED2882A9DC001C3BF0 /* Main.storyboard */,
 				8A508EF02882A9E0001C3BF0 /* Assets.xcassets */,
 				8A508EF22882A9E0001C3BF0 /* LaunchScreen.storyboard */,
 				8A508EF52882A9E0001C3BF0 /* Info.plist */,
+				D0D6073928845C7400206072 /* User.swift */,
+				D0AEE4F12884AE750038CA14 /* customer_home.swift */,
 			);
 			path = Homeasy;
 			sourceTree = "<group>";
@@ -187,6 +219,29 @@
 			path = HomeasyUITests;
 			sourceTree = "<group>";
 		};
+		A57C4FEBC1E367DED5B62A53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFDAED1893DF5B9331CE8D36 /* Pods-Homeasy.debug.xcconfig */,
+				CDC41D81D498A05E296863C6 /* Pods-Homeasy.release.xcconfig */,
+				B528CB88EFB4F1B2106E0F69 /* Pods-Homeasy-HomeasyUITests.debug.xcconfig */,
+				63A14FDE45FCBCFA95268E45 /* Pods-Homeasy-HomeasyUITests.release.xcconfig */,
+				C0FF498CEAFD647C84DF425C /* Pods-HomeasyTests.debug.xcconfig */,
+				20B213A48BC5D9BD9350DAEE /* Pods-HomeasyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D15281B365261A004DED9A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284F1C59FA71624B01D9B164 /* Pods_Homeasy.framework */,
+				C4481015253EEC4E6B2602D4 /* Pods_Homeasy_HomeasyUITests.framework */,
+				CA8A079216F82BFC3753EB09 /* Pods_HomeasyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A508F0E2882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "Homeasy" */;
 			buildPhases = (
+				36B20AED3369B29E218EE5FE /* [CP] Check Pods Manifest.lock */,
 				8A508EE02882A9DC001C3BF0 /* Sources */,
 				8A508EE12882A9DC001C3BF0 /* Frameworks */,
 				8A508EE22882A9DC001C3BF0 /* Resources */,
+				7B402CC0C80244A85C64704F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A508F112882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "HomeasyTests" */;
 			buildPhases = (
+				FD26018EF6B527B1C4BA2D4A /* [CP] Check Pods Manifest.lock */,
 				8A508EF62882A9E1001C3BF0 /* Sources */,
 				8A508EF72882A9E1001C3BF0 /* Frameworks */,
 				8A508EF82882A9E1001C3BF0 /* Resources */,
@@ -229,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A508F142882A9E1001C3BF0 /* Build configuration list for PBXNativeTarget "HomeasyUITests" */;
 			buildPhases = (
+				2A705164D2203A4123C4718A /* [CP] Check Pods Manifest.lock */,
 				8A508F002882A9E1001C3BF0 /* Sources */,
 				8A508F012882A9E1001C3BF0 /* Frameworks */,
 				8A508F022882A9E1001C3BF0 /* Resources */,
+				7FF7DC374BDC648962E37903 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,6 +368,7 @@
 				D0FC2C5F28830396006A4158 /* 9.png in Resources */,
 				D0FC2C712883063B006A4158 /* electrician.png in Resources */,
 				D0FC2C5B28830396006A4158 /* 3.png in Resources */,
+				D0D60738288433EE00206072 /* GoogleService-Info.plist in Resources */,
 				D0FC2C742883063B006A4158 /* gardener.png in Resources */,
 				D0FC2C5A28830396006A4158 /* 2.png in Resources */,
 				D0FC2C502882D8E2006A4158 /* photo-removebg-preview.png in Resources */,
@@ -333,14 +394,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A705164D2203A4123C4718A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homeasy-HomeasyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B20AED3369B29E218EE5FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homeasy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B402CC0C80244A85C64704F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homeasy/Pods-Homeasy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homeasy/Pods-Homeasy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homeasy/Pods-Homeasy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF7DC374BDC648962E37903 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homeasy-HomeasyUITests/Pods-Homeasy-HomeasyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homeasy-HomeasyUITests/Pods-Homeasy-HomeasyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homeasy-HomeasyUITests/Pods-Homeasy-HomeasyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD26018EF6B527B1C4BA2D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeasyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A508EE02882A9DC001C3BF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D6073A28845C7400206072 /* User.swift in Sources */,
+				D0AEE4F42884B2740038CA14 /* customer_main.swift in Sources */,
 				8A508EEC2882A9DC001C3BF0 /* ViewController.swift in Sources */,
 				8A508EE82882A9DC001C3BF0 /* AppDelegate.swift in Sources */,
+				D0AEE4F22884AE750038CA14 /* customer_home.swift in Sources */,
 				8A508EEA2882A9DC001C3BF0 /* SceneDelegate.swift in Sources */,
+				D0D6073C28849F6900206072 /* workers_main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +682,7 @@
 		};
 		8A508F0F2882A9E1001C3BF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDAED1893DF5B9331CE8D36 /* Pods-Homeasy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -542,6 +711,7 @@
 		};
 		8A508F102882A9E1001C3BF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC41D81D498A05E296863C6 /* Pods-Homeasy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -570,6 +740,7 @@
 		};
 		8A508F122882A9E1001C3BF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FF498CEAFD647C84DF425C /* Pods-HomeasyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -589,6 +760,7 @@
 		};
 		8A508F132882A9E1001C3BF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B213A48BC5D9BD9350DAEE /* Pods-HomeasyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -608,6 +780,7 @@
 		};
 		8A508F152882A9E1001C3BF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B528CB88EFB4F1B2106E0F69 /* Pods-Homeasy-HomeasyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -625,6 +798,7 @@
 		};
 		8A508F162882A9E1001C3BF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A14FDE45FCBCFA95268E45 /* Pods-Homeasy-HomeasyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
