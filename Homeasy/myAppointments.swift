@@ -1,27 +1,17 @@
 //
-//  customer_main.swift
+//  myAppointments.swift
 //  Homeasy
 //
-//  Created by Shahd Elkarabaty on 17/07/2022.
+//  Created by Shahd Elkarabaty on 19/07/2022.
 //
 
 import UIKit
 
-class customer_main: UITabBarController {
-    var id : String = ""
-    var name : String = ""
-    var norated : Int = 0
-    var password :String = ""
-    var phone : String = ""
-    var rating : Float = 0.0
-    var type : String = ""
-    var username : String = ""
-    static var passID : String = ""
+class myAppointments: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        customer_main.passID = id
-        
+
         // Do any additional setup after loading the view.
     }
     

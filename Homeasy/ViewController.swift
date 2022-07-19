@@ -26,19 +26,36 @@ class ViewController: UIViewController {
         var Username : String = username_outlet.text ?? ""
         var Password : String = password_outlet.text ?? ""
         
-        
+        if (Username == "")
+        {
+            let alert = UIAlertController(title: "Username field is empty", message: "", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Reenter", style: .default))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
+        if (Password == "")
+        {
+            let alert = UIAlertController(title: "Password field is empty", message: "", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Reenter", style: .default))
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
         var user_ref: DatabaseReference!
         user_ref = ref.child("users")
         
         user_ref.queryOrdered(byChild: "username").queryEqual(toValue: Username).observeSingleEvent(of: .value, with: {snapshot in
             let value = snapshot.value as? NSDictionary
-            let real_disctionary : NSDictionary = value?.allValues.first as! NSDictionary
+            
             if value == nil
             {
-                
+                let alert = UIAlertController(title: "Username does not exist", message: "", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Reenter", style: .default))
+                self.present(alert, animated: true, completion: nil)
+//                incorrect username
             }
             else
             {
+                let real_disctionary : NSDictionary = value?.allValues.first as! NSDictionary
                 let password = real_disctionary["password"]
                 if (password as! String == Password)
                 {
@@ -48,6 +65,7 @@ class ViewController: UIViewController {
                     if self.user_type == "Customer"
                     {
                         self.performSegue(withIdentifier: "main_customer", sender: self)
+                        
                     }
                     else
                     {
@@ -56,6 +74,9 @@ class ViewController: UIViewController {
                 }
                 else
                 {
+                    let alert = UIAlertController(title: "Incorrect password", message: "", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Reenter", style: .default))
+                    self.present(alert, animated: true, completion: nil)
                     print("Password incorrect")
                     //say that password is incorrect
                 }
@@ -97,7 +118,7 @@ class ViewController: UIViewController {
             var vc = segue.destination as! customer_main
             vc.id = self.ID
         }
-        else
+        else if self.user_type == "Worker"
         {
             var vc = segue.destination as! workers_main
             vc.id = self.ID

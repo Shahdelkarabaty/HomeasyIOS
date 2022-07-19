@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0B903A5AC138D2E1F746204C /* Pods_HomeasyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8A079216F82BFC3753EB09 /* Pods_HomeasyTests.framework */; };
+		509F444528858A61009E22BF /* register_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F444428858A61009E22BF /* register_page.swift */; };
+		509F44472885A615009E22BF /* verify_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F44462885A615009E22BF /* verify_page.swift */; };
 		8A508EE82882A9DC001C3BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */; };
 		8A508EEA2882A9DC001C3BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EE92882A9DC001C3BF0 /* SceneDelegate.swift */; };
 		8A508EEC2882A9DC001C3BF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A508EEB2882A9DC001C3BF0 /* ViewController.swift */; };
@@ -22,6 +24,11 @@
 		C6BD72F92111745ACE549E10 /* Pods_Homeasy_HomeasyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4481015253EEC4E6B2602D4 /* Pods_Homeasy_HomeasyUITests.framework */; };
 		D0AEE4F22884AE750038CA14 /* customer_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEE4F12884AE750038CA14 /* customer_home.swift */; };
 		D0AEE4F42884B2740038CA14 /* customer_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEE4F32884B2740038CA14 /* customer_main.swift */; };
+		D0B0A9E328861F6500D8049E /* workers_requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0A9E228861F6500D8049E /* workers_requests.swift */; };
+		D0B0A9E628862C8900D8049E /* customer_booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0A9E528862C8900D8049E /* customer_booking.swift */; };
+		D0B0A9EA2886C75500D8049E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0A9E92886C75500D8049E /* TableViewController.swift */; };
+		D0B0A9F028871BBA00D8049E /* customer_pending.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0A9EF28871BBA00D8049E /* customer_pending.swift */; };
+		D0B0A9F42887523900D8049E /* customer_myAppointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0A9F32887523900D8049E /* customer_myAppointments.swift */; };
 		D0D60738288433EE00206072 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0D60737288433EE00206072 /* GoogleService-Info.plist */; };
 		D0D6073A28845C7400206072 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6073928845C7400206072 /* User.swift */; };
 		D0D6073C28849F6900206072 /* workers_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6073B28849F6900206072 /* workers_main.swift */; };
@@ -66,6 +73,8 @@
 /* Begin PBXFileReference section */
 		20B213A48BC5D9BD9350DAEE /* Pods-HomeasyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeasyTests.release.xcconfig"; path = "Target Support Files/Pods-HomeasyTests/Pods-HomeasyTests.release.xcconfig"; sourceTree = "<group>"; };
 		284F1C59FA71624B01D9B164 /* Pods_Homeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		509F444428858A61009E22BF /* register_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register_page.swift; sourceTree = "<group>"; };
+		509F44462885A615009E22BF /* verify_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verify_page.swift; sourceTree = "<group>"; };
 		63A14FDE45FCBCFA95268E45 /* Pods-Homeasy-HomeasyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homeasy-HomeasyUITests.release.xcconfig"; path = "Target Support Files/Pods-Homeasy-HomeasyUITests/Pods-Homeasy-HomeasyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8A508EE42882A9DC001C3BF0 /* Homeasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homeasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A508EE72882A9DC001C3BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +97,11 @@
 		CDC41D81D498A05E296863C6 /* Pods-Homeasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homeasy.release.xcconfig"; path = "Target Support Files/Pods-Homeasy/Pods-Homeasy.release.xcconfig"; sourceTree = "<group>"; };
 		D0AEE4F12884AE750038CA14 /* customer_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer_home.swift; sourceTree = "<group>"; };
 		D0AEE4F32884B2740038CA14 /* customer_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer_main.swift; sourceTree = "<group>"; };
+		D0B0A9E228861F6500D8049E /* workers_requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workers_requests.swift; sourceTree = "<group>"; };
+		D0B0A9E528862C8900D8049E /* customer_booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer_booking.swift; sourceTree = "<group>"; };
+		D0B0A9E92886C75500D8049E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D0B0A9EF28871BBA00D8049E /* customer_pending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer_pending.swift; sourceTree = "<group>"; };
+		D0B0A9F32887523900D8049E /* customer_myAppointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer_myAppointments.swift; sourceTree = "<group>"; };
 		D0D60737288433EE00206072 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0D6073928845C7400206072 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D0D6073B28849F6900206072 /* workers_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workers_main.swift; sourceTree = "<group>"; };
@@ -175,6 +189,7 @@
 				D0FC2C6B2883063B006A4158 /* gardener.png */,
 				D0FC2C692883063B006A4158 /* housekeeping.png */,
 				D0FC2C652883063B006A4158 /* nanny.png */,
+				D0B0A9F32887523900D8049E /* customer_myAppointments.swift */,
 				D0FC2C672883063B006A4158 /* painter.png */,
 				D0FC2C662883063B006A4158 /* plumber.png */,
 				D0FC2C5728830395006A4158 /* 1.png */,
@@ -193,11 +208,18 @@
 				8A508EEB2882A9DC001C3BF0 /* ViewController.swift */,
 				D0AEE4F32884B2740038CA14 /* customer_main.swift */,
 				8A508EED2882A9DC001C3BF0 /* Main.storyboard */,
+				D0B0A9EF28871BBA00D8049E /* customer_pending.swift */,
+				D0B0A9E92886C75500D8049E /* TableViewController.swift */,
+				D0B0A9E528862C8900D8049E /* customer_booking.swift */,
+				D0B0A9E228861F6500D8049E /* workers_requests.swift */,
+				D0B0A9E4288623BE00D8049E /* Models */,
+				509F444428858A61009E22BF /* register_page.swift */,
 				8A508EF02882A9E0001C3BF0 /* Assets.xcassets */,
 				8A508EF22882A9E0001C3BF0 /* LaunchScreen.storyboard */,
 				8A508EF52882A9E0001C3BF0 /* Info.plist */,
 				D0D6073928845C7400206072 /* User.swift */,
 				D0AEE4F12884AE750038CA14 /* customer_home.swift */,
+				509F44462885A615009E22BF /* verify_page.swift */,
 			);
 			path = Homeasy;
 			sourceTree = "<group>";
@@ -230,6 +252,13 @@
 				20B213A48BC5D9BD9350DAEE /* Pods-HomeasyTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0B0A9E4288623BE00D8049E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D15281B365261A004DED9A32 /* Frameworks */ = {
@@ -503,12 +532,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D6073A28845C7400206072 /* User.swift in Sources */,
+				509F44472885A615009E22BF /* verify_page.swift in Sources */,
+				D0B0A9EA2886C75500D8049E /* TableViewController.swift in Sources */,
 				D0AEE4F42884B2740038CA14 /* customer_main.swift in Sources */,
+				D0B0A9E628862C8900D8049E /* customer_booking.swift in Sources */,
 				8A508EEC2882A9DC001C3BF0 /* ViewController.swift in Sources */,
+				D0B0A9F028871BBA00D8049E /* customer_pending.swift in Sources */,
+				D0B0A9F42887523900D8049E /* customer_myAppointments.swift in Sources */,
 				8A508EE82882A9DC001C3BF0 /* AppDelegate.swift in Sources */,
+				D0B0A9E328861F6500D8049E /* workers_requests.swift in Sources */,
 				D0AEE4F22884AE750038CA14 /* customer_home.swift in Sources */,
 				8A508EEA2882A9DC001C3BF0 /* SceneDelegate.swift in Sources */,
 				D0D6073C28849F6900206072 /* workers_main.swift in Sources */,
+				509F444528858A61009E22BF /* register_page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
