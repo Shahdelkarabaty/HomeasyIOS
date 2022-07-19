@@ -82,7 +82,7 @@ class customer_booking: UIViewController {
             }
             apps.append(appID)
             customer_ref.child("appointments").setValue(apps)
-            self.performSegue(withIdentifier: "booking_customerhome", sender: self)
+            self.performSegue(withIdentifier: "booking_customermain", sender: self)
             
             
         })
@@ -102,7 +102,7 @@ class customer_booking: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         
-        var vc = segue.destination as! customer_home
+        var vc = segue.destination as! customer_main
         vc.id = id
         
         

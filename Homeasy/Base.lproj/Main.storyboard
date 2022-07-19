@@ -1079,7 +1079,7 @@
                         <outlet property="DatePicker" destination="jXW-7r-YMZ" id="fiV-Rv-SWa"/>
                         <outlet property="jobDescTextField" destination="oY2-9X-vka" id="4zG-A3-UNk"/>
                         <outlet property="jobTypeTextField" destination="Seg-XW-4hq" id="GWw-jo-Giz"/>
-                        <segue destination="Nyl-jd-f2I" kind="presentation" identifier="booking_customerhome" id="GCD-qj-IpA"/>
+                        <segue destination="4ST-6p-P8J" kind="presentation" identifier="booking_customermain" id="ie2-UI-fCe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1y-WI-RNu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1115,7 +1115,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="LbR-bx-VO6"/>
-        <segue reference="HTk-fA-dcn"/>
+        <segue reference="ie2-UI-fCe"/>
         <segue reference="UkV-oE-lCL"/>
         <segue reference="JOE-04-2Ko"/>
         <segue reference="7lh-sN-8Z0"/>
