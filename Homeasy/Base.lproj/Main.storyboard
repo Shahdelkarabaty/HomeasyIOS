@@ -155,7 +155,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="QI1-Pa-0pd">
                                             <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="presentation" id="JOE-04-2Ko"/>
+                                                <action selector="backbtn:" destination="Nyl-jd-f2I" id="imA-8D-wHF"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -291,6 +291,7 @@
                     </tabBarItem>
                     <connections>
                         <segue destination="UIF-aQ-4Za" kind="presentation" identifier="home_book" id="TVM-Ex-QUz"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="customerhome_main" id="lLL-Yk-K11"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3c-XU-NJo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -377,6 +378,9 @@
                                     <navigationItem id="uCu-Wd-pnf">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="FYB-OU-zs0">
                                             <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
+                                            <connections>
+                                                <action selector="backbtn:" destination="uLk-1l-1kd" id="2gI-vA-NGM"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -514,6 +518,7 @@
                         <outlet property="jobText1" destination="XCF-UC-ok6" id="fbl-zN-vsl"/>
                         <outlet property="jobText2" destination="2wj-6v-tD6" id="AwO-mh-M34"/>
                         <outlet property="jobText3" destination="OAh-0f-zXF" id="fY1-eu-c0P"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="pending_main" id="sAo-MN-GDS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BXy-zC-CTZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -535,6 +540,9 @@
                                     <navigationItem id="WMk-Jq-3Yq">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="B4T-p7-1Y2">
                                             <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="bEe-ig-1Ux"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -953,7 +961,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="eih-eF-n6r">
                                             <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
                                             <connections>
-                                                <segue destination="uqs-cD-BAS" kind="presentation" id="LbR-bx-VO6"/>
+                                                <action selector="backbtn:" destination="Drl-8T-zZg" id="UY6-pk-RQp"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -968,6 +976,7 @@
                         <outlet property="number_label" destination="Phd-la-nPV" id="3gE-1j-UO6"/>
                         <segue destination="4ST-6p-P8J" kind="presentation" identifier="verify_customermain" id="HTk-fA-dcn"/>
                         <segue destination="aPB-ON-Rup" kind="presentation" identifier="verify_workersmain" id="7lh-sN-8Z0"/>
+                        <segue destination="uqs-cD-BAS" kind="presentation" identifier="verify_main" id="WcU-bh-j5F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tra-V5-An3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -994,7 +1003,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="P6D-U7-iVR">
                                             <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
                                             <connections>
-                                                <segue destination="Nyl-jd-f2I" kind="presentation" id="UkV-oE-lCL"/>
+                                                <action selector="backbtn:" destination="UIF-aQ-4Za" id="wlH-Zt-9QA"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1080,6 +1089,7 @@
                         <outlet property="jobDescTextField" destination="oY2-9X-vka" id="4zG-A3-UNk"/>
                         <outlet property="jobTypeTextField" destination="Seg-XW-4hq" id="GWw-jo-Giz"/>
                         <segue destination="4ST-6p-P8J" kind="presentation" identifier="booking_customermain" id="ie2-UI-fCe"/>
+                        <segue destination="Nyl-jd-f2I" kind="presentation" identifier="booking_home" id="RX7-VO-ci3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1y-WI-RNu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1114,10 +1124,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LbR-bx-VO6"/>
+        <segue reference="WcU-bh-j5F"/>
         <segue reference="ie2-UI-fCe"/>
-        <segue reference="UkV-oE-lCL"/>
-        <segue reference="JOE-04-2Ko"/>
+        <segue reference="RX7-VO-ci3"/>
+        <segue reference="bEe-ig-1Ux"/>
         <segue reference="7lh-sN-8Z0"/>
     </inferredMetricsTieBreakers>
     <resources>

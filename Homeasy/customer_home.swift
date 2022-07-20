@@ -11,6 +11,11 @@ class customer_home: UIViewController {
 
     var jobToRequest : String = ""
     var id : String = ""
+    var back_pressed = false
+    @IBAction func backbtn(_ sender: Any) {
+        back_pressed = true
+        self.performSegue(withIdentifier: "customerhome_main", sender: self)
+    }
     @IBAction func carpenter_action(_ sender: Any) {
         jobToRequest = "Carpenter"
         self.performSegue(withIdentifier: "home_book", sender: self)
@@ -60,9 +65,16 @@ class customer_home: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        var vc = segue.destination as! customer_booking
-        vc.jobToRequest = jobToRequest
-        vc.id = id
+        if back_pressed{
+            
+        }
+        else
+        {
+            var vc = segue.destination as! customer_booking
+            vc.jobToRequest = jobToRequest
+            vc.id = id
+        }
+        
         
         
     }

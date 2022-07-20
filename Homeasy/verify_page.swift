@@ -22,9 +22,13 @@ class verify_page: UIViewController {
     var job : String = ""
     var codeToSend : String = ""
     var ID = ""
-
+    var back_pressed = false
     @IBOutlet weak var codeEntered: UITextField!
     
+    @IBAction func backbtn(_ sender: Any) {
+        back_pressed = true
+        self.performSegue(withIdentifier: "verify_main", sender: self)
+    }
     @IBOutlet weak var number_label: UILabel!
     
     @IBAction func verifyButton(_ sender: Any) {
@@ -104,6 +108,10 @@ class verify_page: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
+        if back_pressed{
+            
+        }
+        else 
         if userType == "Customer"
         {
             var vc = segue.destination as! customer_main

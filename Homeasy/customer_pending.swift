@@ -35,6 +35,11 @@ class customer_pending: UIViewController {
     @IBOutlet weak var dateText3: UILabel!
     @IBOutlet weak var descText3: UILabel!
     
+    var back_pressed = false
+    @IBAction func backbtn(_ sender: Any) {
+        back_pressed = true
+        self.performSegue(withIdentifier: "pending_main", sender: self)
+    }
     
     func setfirst(job: String, date : String, desc:String)
     {

@@ -22,7 +22,11 @@ class customer_booking: UIViewController {
     var Day : Int = 0
     var Month: Int = 0
     var Year : Int = 0
-    
+    var back_pressed = false
+    @IBAction func backbtn(_ sender: Any) {
+        back_pressed = true
+        self.performSegue(withIdentifier: "booking_customermain", sender: self)
+    }
     @IBOutlet weak var jobDescTextField: UITextView!
     @IBOutlet weak var AddressTextField: UITextField!
     @IBOutlet weak var DatePicker: UIDatePicker!
@@ -101,9 +105,17 @@ class customer_booking: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
+        if back_pressed
+        {
+            
+        }
+        else
+        {
+            var vc = segue.destination as! customer_main
+            vc.id = id
+        }
         
-        var vc = segue.destination as! customer_main
-        vc.id = id
+        
         
         
     }

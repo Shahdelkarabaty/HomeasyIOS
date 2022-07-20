@@ -4,7 +4,7 @@
 //
 //  Created by Shahd Elkarabaty on 19/07/2022.
 //
-/*
+
 import UIKit
 import FirebaseCore
 import FirebaseDatabase
@@ -79,6 +79,7 @@ class customer_myAppointments: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*
         ref = Database.database().reference()
         var customer_ref = ref.child("customers").child(customer_main.passID)
         
@@ -126,7 +127,7 @@ class customer_myAppointments: UIViewController {
             
             
             
-        })
+        })*/
         
     }
     
@@ -141,4 +142,4 @@ class customer_myAppointments: UIViewController {
     }
     */
 
-}*/
+}
